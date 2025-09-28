@@ -1,12 +1,12 @@
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
-import Footer from "./components/Footer";
-import Navigation from "./components/Navigation";
-import AdminPage from "./pages/AdminPage";
-import AnnouncementDetailPage from "./pages/AnnouncementDetailPage";
-import AnnouncementsPage from "./pages/AnnouncementsPage";
-import ClubDetailPage from "./pages/ClubDetailPage";
-import ClubsPage from "./pages/ClubsPage";
-import HomePage from "./pages/HomePage";
+import Footer from "./components/Footer.jsx";
+import Navigation from "./components/Navigation.jsx";
+import AdminPage from "./pages/AdminPage.jsx";
+import AnnouncementDetailPage from "./pages/AnnouncementDetailPage.jsx";
+import AnnouncementsPage from "./pages/AnnouncementsPage.jsx";
+import ClubDetailPage from "./pages/ClubDetailPage.jsx";
+import ClubsPage from "./pages/ClubsPage.jsx";
+import HomePage from "./pages/HomePage.jsx";
 
 function App() {
   return (

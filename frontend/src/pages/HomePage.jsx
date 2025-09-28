@@ -10,7 +10,7 @@ import {
 } from "react-bootstrap";
 import { FaArrowRight, FaBullhorn, FaUsers } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import AnnouncementCard from "../components/AnnouncementCard";
+import AnnouncementCard from "../components/AnnouncementCard.jsx";
 import { announcementAPI, clubAPI } from "../services/api";
 
 const HomePage = () => {
