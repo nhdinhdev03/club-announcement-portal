@@ -5,17 +5,17 @@ import { defineConfig } from "vite";
 export default defineConfig({
   plugins: [react()],
   esbuild: {
-    loader: 'jsx',
+    loader: "jsx",
     include: /src\/.*\.[jt]sx?$/,
-    exclude: []
+    exclude: [],
   },
   optimizeDeps: {
     esbuildOptions: {
       loader: {
-        '.js': 'jsx',
-        '.jsx': 'jsx'
-      }
-    }
+        ".js": "jsx",
+        ".jsx": "jsx",
+      },
+    },
   },
   server: {
     port: 3000,
